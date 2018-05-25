@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <form action="/" method="post">
+            <input type="text" name="sayi1" />
+            <input type="text" name="sayi2" />
+            <select name="islem">
+                <option value="+">Topla</option>
+                <option value="-">Cıkarma</option>
+                <option value="*">Çarpma</option>
+                <option value="/">Bölme</option>
+            </select>
+
+            <input type="submit" value="İşlem" />
+        </form>
+        sonuc: @ViewBag.Sonuc 
+    </div>
+</body>
+</html>

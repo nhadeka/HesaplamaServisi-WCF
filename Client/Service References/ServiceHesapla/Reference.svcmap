@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="33b9b7d4-9697-47d2-b865-7366a951c8b1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1423/HesaplamaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HesaplamaService.xsd" MetadataType="Schema" ID="ea6a6212-9660-4bc8-8b35-58f24c677473" SourceId="1" SourceUrl="http://localhost:1423/HesaplamaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HesaplamaService.wsdl" MetadataType="Wsdl" ID="ebf1b0fa-fe3f-4d0f-bd60-87b5fdb06b6f" SourceId="1" SourceUrl="http://localhost:1423/HesaplamaService.svc?wsdl" />
+    <MetadataFile FileName="HesaplamaService1.xsd" MetadataType="Schema" ID="88efd153-dbfc-4fb2-a378-66bb1c80b5cb" SourceId="1" SourceUrl="http://localhost:1423/HesaplamaService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HesaplamaService.disco" MetadataType="Disco" ID="017496c0-e540-45f6-bccd-ec05b88a0773" SourceId="1" SourceUrl="http://localhost:1423/HesaplamaService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

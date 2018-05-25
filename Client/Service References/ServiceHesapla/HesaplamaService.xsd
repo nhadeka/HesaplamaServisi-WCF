@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Carpma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="a" type="xs:double" />
+        <xs:element minOccurs="0" name="b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CarpmaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CarpmaResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bolme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="a" type="xs:double" />
+        <xs:element minOccurs="0" name="b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BolmeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BolmeResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Toplama">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="a" type="xs:double" />
+        <xs:element minOccurs="0" name="b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ToplamaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ToplamaResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cikarma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="a" type="xs:double" />
+        <xs:element minOccurs="0" name="b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CikarmaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CikarmaResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
